@@ -1,0 +1,42 @@
+body{
+    background-color: beige;
+}
+
+table{
+    border: 1px;
+    border-color: black;
+    height: 300px;
+    width: 400px;
+    background: linear-gradient(To right,lightblue,lightgreen,lightpink);
+}
+
+#rotX
+{
+    transform: rotateX(180deg);
+}
+#cap
+{
+    text-transform: capitalize;
+}
+#up
+{
+    text-transform: uppercase;
+}
+#low
+{
+    text-transform: lowercase;
+}
+#line
+{
+    text-decoration: underline;
+}
+p{
+    color:red;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 2px #262626;
+}
+h4{
+    color:indigo;
+    box-shadow:  4px 4px 4px #262626;
+}
